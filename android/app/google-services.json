@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "825824453778",
+    "project_id": "shopping-coins-abbc2",
+    "storage_bucket": "shopping-coins-abbc2.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:825824453778:android:5b6cfde7ce528cf9bd724b",
+        "android_client_info": {
+          "package_name": "com.shoppingcoins"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDIkB8lQby9tV2vaiymUxxzjCctbQruo_4"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

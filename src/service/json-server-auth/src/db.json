@@ -1,0 +1,444 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Leonardo",
+      "email": "leo@example.com",
+      "password": "senha123",
+      "profilePicture": "https://example.com/foto-leo.jpg",
+      "saldo": 100,
+      "dataDeCadastro": "2025-01-27T14:30:00Z"
+    },
+    {
+      "id": 1738079305145,
+      "name": "Pedro",
+      "email": "pedro@email.com",
+      "password": "123456",
+      "profilePicture": "data:image/jpeg;base64,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",
+      "saldo": 100,
+      "dataDeCadastro": "2025-01-28T15:48:25.145Z"
+    },
+    {
+      "id": 1738118570820,
+      "name": "Leonardo",
+      "email": "leo@email.com",
+      "password": "12345678",
+      "profilePicture": "data:image/jpeg;base64,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",
+      "saldo": 100,
+      "dataDeCadastro": "2025-01-29T02:42:50.820Z"
+    },
+    {
+      "id": 1738118667785,
+      "name": "Marta",
+      "email": "marta@email.com",
+      "password": "12345678",
+      "profilePicture": "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAkGBxISEhUREBAVFRUSFxUVFRIVGBUVEBUXFRIWFxcWFRcYHSggGBolHRUVIjEhJSkrLi4uFyAzODMsNygtLisBCgoKDQ0OGhAPFzAdHx0rLSstLy0tKy0tNS0tLS0tLSsrLS0tLS0tLSstLS0tLS0tLS0tLS0tLSstKy0tLS0tLf/AABEIALMBGgMBIgACEQEDEQH/xAAcAAEAAQUBAQAAAAAAAAAAAAAABwIDBAUGCAH/xABHEAACAQIDBAcEBAsGBwEAAAAAAQIDEQQSIQUxQVEGByJhcYGhE5GxwTJCUnIUFTNigpKistHh8CM1Q3Oz8VNUdIOTo8I0/8QAGQEBAAMBAQAAAAAAAAAAAAAAAAECAwQF/8QAIhEBAQACAgICAwEBAAAAAAAAAAECEQMhMUESUQQiMmET/9oADAMBAAIRAxEAPwCcQAAAAAAAAAAAAAAAAAB8lJLeziek3WNh8M3CkvayTabTtTuuCfH+RpOmnTSVOvVoOEoKMMkXffmqazWnGHzIsxTlVnKT0zTul96V0l+t6FbW2PH7rsNodamNnl9k4U9Xuje6s1rmvz+BrF1i7Rzyl+ES7V7qyypNfVVrKyOVq07KEd32n4v+HwKsjyPnN+aWunp/ViNr/GfSXuiPWhmUaeLi5S/4kUlZblmXF96JMwuKhUjmpyUlrqu528jyu6Lprs6t8eBtujXSWth60JQlqpLWX0dbrXu7TJlVy4/p6YBYwWKhVipU5xmt2aDUo3trqvEvlmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABxnWP0reCpxhSf9rPVaboq+vjfx4nZnn/rVx86uPnCTbVO0IrRWS1tp965FXwm60ONxdXEzzTvKT4734W5dysZ8OjWIlGLUdey+9W3HY9XmwYKn7epFOU32b8EjvadFcEjmyzu+nfjjJO0M1ehWKcW3Brw37mvmYs+jGKT/ACTdvn/XxJ3UA6a5D5VH6/SEKPRXFSj+TenDj/W/3mk2ls6UJOORxfFPR9x6IcFyOY6bbEp1qEp5Up0+0pLf3p9xaZ32i4y+Gq6lMdJupTnOTtFZYuSyRs3fLC+980uBLB576F4qpSxUXB8bNKTj4ptfBnoOLurm8cfJNV9ABLMAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAPPfWdhcm1Kv5zhLh9aEX/ABPQhDHXJh0sdSnb6dKN9NG1Ukv4ehXLw04v6db0Uilh6aXI31NGn2NR9lTjFv6KV3w3G0pYmD3Tj70ckehlGUioojrxEtN+hoxJ2NftanmpTit7iz5ids4aDalXgmt6urlrDbVpVXaEk77u/wACtaYyoZ2JgZyxtOnG6cqyhdb1d/L+J6RhGyS5JL3EPPCKjtqnlj2ZTjUsuF4yzeqJfw9ZTipRd0zowvTk55Zf8XAAXYAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABFfT7AqrTdeSeejV0fGzqJNPuWjJUOS6TYbtSTjeLTlJc042bXemjHm3qV2fh6uVxvuMbF0s0bNtR425HKbSqUI3thqs7O2dOS/wB1pwTO1wjTinwaT9C/+DX0TduX+5zze3ZuSduX2DKVOSWWcLpNxlLNZPd8TpNrqTp6a9y8D5iMOoq3Fl2esVcTfabq6scLKhVU4yp4OFTNvlJXlFp2vK60VuXuOl2ZTm/ytBQs9LZfl/I2dHCQ4K1+TL86eXRE6ukXOb1HPYvAX2jSq209jJeanZfveh2myKWWmlzbfvZp46ytySffvZ0VGFopckkb8U725PyMtYzFWADZxAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABhbTwXtI9nSSuvJmaCLNzVWxyuN3HGYCTjDLLfDsPxi7fIzKmLtZczC2lh3CtVp5rOb9pB+OvxuvIxMZs6pVTqUaiU8qSjPNkzLg7NNJ81qcd3Lp6mFxyxlrIxW0Ixlq/DcXqm1Y5dFf3L1bsYWycJKpFKrCEKi+lBvMr3to76q+596NtPYNlr7NJL862vcTMcvTTLPjmpkwXi7xzQeq4X380ZVHF5oqSe/Tz4o1WJ2TKpNRhUUaa1m4rV8oxu/Uuxw0aMFHM8sc0m78Xw9zIMrHRbEoqUpVHra0Vy01v6m6NdsClloQvvl2v1t3pY2J14TUeTy5fLK0ABZmAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAFuvWjCMpzkoxinKUm7JJK7bfIDnenOEl7KOIpJupRf0VvlB71bi9E14W4mh2Rt2MnF5laf9XNjguk34fSnVpUnGiqko0pS+nWVNuMqmX6sc10lv7Ottxx/SbYk0/b4XnnlTXPjKHjxXHfv38/NjrKb9u78bL9LPp3Neinra/H+Zi0cTnlktJtb7p2395pej/SeFSmlKSTWjW5p8mbL8cwUrX5u/Az7jrxyumyrVVSjd23M0eCbxOKhSavTTU57rW3xi+9te65pNvbUqYqosNhe03pJ65Yp723wOw2Js5YeMYRbcvpTm/pSaW9+iS5IvhjvKMOXL9a7FA1uyds067qQi7VKEslSm7Zo6Jxl3xlFpp9/NNGyOl5oAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAADGx+0KVCDqV6sKcV9abUV5X3vuIx6UdbkVengKd3u9tUWnjCHzl7iZLRKGOxlOjCVWtOMIQV5Sk7RRBfWH0/njb0KF4YZPjpOtZ6OfKPKPm+FuX2rtzEYqWfEVpVHwUn2V92K0XkjWyZpjhoTp0LivxfhEv+Xo+904t+rZsa+Gad4q6e+Pfzj/A0fVpiM+z6N/qZ6b7slSSj+zlOvjBFs8JlNUw5MsLuOUxfR3D1m5ShaXGUbwn52+ZZpdC8Ne8s8u6U5te651eNVKKUqs1DWyk2o68lf6T7jS1+kGHpr+1rQp62vLe+F8sW2cOX4/Jj/Pcd/H+RhnO+qz9mbOpUVkpU4xXJK3m2bDJYtbOxVGrDNQqwqR4yhJS177bn3F+TOri4vh3fLi5+b53U8Io6wsbVwu04VqFR05Tw9OWaO/NGpVjqtzWWMVZ6G+2N1wQso4vDvNuc6TTT78krW97OS64Kt8fCK+rhqb85Vq/ySOJcjS4yqR6b2L0wwWKsqOIjmf8Ahz7FTyjK1/K5vTyVTmb3Z3SzG0bKniqqS3Rc3KK8Iyuin/P6S9MAgvAda2OhbP7OqvzoWl74NfA6vZHW7h52WJoTpfnQftIeaspLyTK3CiSQa/Ye2qOLpe2w880buLumpRkt6knueq95sCoAAAAAAAAAAAAAAAAAAAAcF1ybUqUcFGFOTi61RQk4uzyqLk1dc2l5XJk2N50k6Z4PBJqrVzVF/g07Sq+a3R82iMNv9bGKq3jhlGhHnpOr72rLyXmRvUqtyd3e+t+/jcpzGkwgzdobTq1pZ6tWc5fanJyfqYTZ8R9NNG1Ua0d27x0Pk5FMVc+zCEp9TOPTjiMO+DjVivFZJ/CHvJFxFZxi8ivLguHmQl1X4jLtCms1s8akOFn2M1n3dj3pE14HDqEcqu7Sk7t3bzNybb8WydKZeUR9O9mYyE/wrEVfbQbs96jRu9FGO6MeGnHffeaDMnG8dLE6bUwcasHGSTT3pq6aas01xRBu09n/AIPXqYdSvDLnjfWSTv2X3qz1Ojjy60pWx6K4HFYivbCVZUnTWaVdfV+zF/au+D0smSrsvaVZZaWMgo1H2Y1Y/karXL7E39l7+HI1nVvhaUMDRdLX2sfazk7ZnUbaknblly/onUVaMZQtJXWj807p+KZnnZvtKDOsXE+02piOVNUqa8FSjJ+s5HOTR0nWFb8YVu/Jf9RHOMzrWPlOJWUFZA+hyt6fFAorPTzj+8gJY6kdpWq18O3pOKqLxg7P3qS/VJfPNXQjbH4LjKVZu0VJKf3ZdmXo7+R6UTMc52l9ABQAAAAAAAAAAAAAAAACL+vaslRw0OLqTl5Rgk/3kSgQX11bTVXGRoxemHgov783ml6ZPcWx8iOKq48n/I+pFdr3XMpp7kboGhYqKQKafFcvgyqSKZK1n5Pz/mVsDL2BjfY4ijWvZU6lOb+7Gazfs3Xmejo/Sa5o8xLeegujG0vbYXDVm7uUFGT/ADo9mXrFkq5NzWfZb5ECbXxHtsdiJcM84Lwg8nxTfmTtj6mWE/Q8+4De5vfLX3u5txTtSu86pNouMqmEb0s6tNcndKaXj2X7yTaX0PAhHopiPY4+hPcpVFB+FS8PjJe4m6hxRXlnZKgvrDS/GNe35n+mjnGb3pzK+0MR3SS90UaFmd8tYFZQisgC1We7xj+8i42Waj1S7/lf5AXVKz0PRPVjt38KwUMzvUo2pT56LsS81bzTPOKkd11Sbe/B8bCnJ2hif7KXLM9ab/W0/SZTObiXoEAGIAAAAAAAAAAAAAAAA+SdtXwPLfSPH+3xNatf8pUnJeDk7elj0Z0xx3sMDiavGNKaX3pLLH1aPMUzTjg+Ipjva8/eVot1NGnz0/r1NUKz4EfQPjR8i9PAqsU8fECmRKvVZjs+ErUONCaqR+7UTf70J/rEVyR2HVXjvZ41U2+zXhOm1wulni/2Gv0iYjLwlTpFXSoKpfR5b+bt8yE8NCyXgvgTJtajnwGIp/WpRnbn2O1H0SIfg9x0cPtlkVpOH9ot8GpLxi7r1RP1KabUlukk/J6ogacbomno1Xz4TDz50aXpBJ/Ac88IiFenKttHFf5n/wARNGzddNZ5sfiXzqv0SXyNLY5m8Ihs+JlLkB9kzHcu3Hzfp/MrczGhO9R90X6v+RFSyEXqFVxkpRdnFpp8mndMxky7AD1V0c2msVhaOIX+LCMmuUrWkvKSa8jZEZ9Rm1c+Gq4ZvWhPNFcoVbv96M35kmGFmqAAIAAAAAAAAAAAAABxvW7Wy7Mqr7cqMV/5oSfpFnnqRPfXP/d6/wA6n8JsgQ14/A+lrEvs35al4t1lo/A0QpjIuRMHBVbpLlp7jMiwKymS0KgwKb3Re2bi3Rqwqx30pxmv0ZJ287W8yytHbnqfGiR6IwM4zqTineGIpxqR5NSjZv3NEI0o2snvWnu0JE6vdqZ6OFu+1SdTDy8F2ofsuC8mcLtGGWvWj9mrVXuqSR0cXljkoJV6D4i+Ao92eH6tWasRTFnadHNrKhs9Sb0p16q/9ftLepblnSIjnbVXPiK073zVar99SRiPcUyk3v38fE+VHw5nI3fXoWpSEi3ICmpIxsPK8pPwRVXnoy1s7VN95X2lsIIqgW3KxR7ckSB1Q7U9jtGEW+ziIypPlf6UPWNv0mehDyVsfaLpVadZb6U4zVt/Zkn8j1hhcRGpCNSDvGcVKMlucZK6a8mZZzsXQAUAAAAAAAAAAAAABwnXN/d//eh+7MgK4Brx+BWW6u5gGiGlwcu213/M26PgIxSuoqQBKFNTh4r4iQAHY9WlWXt8t9M9OVuF7VFcxNuf/qxH+fW/1ZAHTwss2NAzsRJ/iyf/AFnxwyuAX5fCMfLkmfHv8j4DkbKJluYBAwsQz5szcwCntZk13ofKMVa4BZCuG89LdUlaU9lYZyd7e0iu6MK04xXkkl5AGefgdgADMAAAAAH/2Q==",
+      "saldo": 100,
+      "dataDeCadastro": "2025-01-29T02:44:27.785Z"
+    },
+    {
+      "id": 1738171579305,
+      "name": "Email",
+      "email": "email@email.com",
+      "password": "12345678",
+      "profilePicture": "data:image/jpeg;base64,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",
+      "saldo": 1000,
+      "dataDeCadastro": "2025-01-29T17:26:18.827Z"
+    }
+  ],
+  "Products": {
+    "meta": {
+      "total": 32,
+      "per_page": 10,
+      "current_page": 1,
+      "last_page": 4,
+      "first_page": 1,
+      "first_page_url": "/?page=1",
+      "last_page_url": "/?page=4",
+      "next_page_url": "/?page=2",
+      "previous_page_url": null
+    },
+    "produtos": [
+      {
+        "id": 1,
+        "nome": "iPhone 14 Pro Max",
+        "descricao": "Smartphone Apple com tela Super Retina XDR de 6.7 polegadas, câmera tripla de 48MP",
+        "preco": 8999,
+        "quantidade": 10,
+        "imagem_url": "https://m.media-amazon.com/images/I/71ZDY57yTQL._AC_SL1500_.jpg",
+        "categoria": "Smartphones",
+        "data_cadastro": "2024-03-27"
+      },
+      {
+        "id": 2,
+        "nome": "MacBook Pro M2",
+        "descricao": "Notebook Apple com chip M2, 16GB RAM, 512GB SSD e tela Liquid Retina XDR de 14 polegadas",
+        "preco": 14999,
+        "quantidade": 5,
+        "imagem_url": "https://m.media-amazon.com/images/I/61L5QgPvgqL._AC_SL1500_.jpg",
+        "categoria": "Notebooks",
+        "data_cadastro": "2024-03-27"
+      },
+      {
+        "id": 3,
+        "nome": "PlayStation 5",
+        "descricao": "Console Sony PlayStation 5 com leitor de disco, controle DualSense e 825GB SSD",
+        "preco": 4499,
+        "quantidade": 8,
+        "imagem_url": "https://m.media-amazon.com/images/I/51051FiD9UL._AC_SL1500_.jpg",
+        "categoria": "Consoles",
+        "data_cadastro": "2024-03-27"
+      },
+      {
+        "id": 4,
+        "nome": "Samsung Smart TV 65\"",
+        "descricao": "TV Samsung Neo QLED 4K, taxa de atualização de 120Hz, HDR e sistema Tizen",
+        "preco": 6999,
+        "quantidade": 3,
+        "imagem_url": "https://m.media-amazon.com/images/I/81c+9BOQNWL._AC_SL1500_.jpg",
+        "categoria": "TVs",
+        "data_cadastro": "2024-03-27"
+      },
+      {
+        "id": 5,
+        "nome": "Apple Watch Series 8",
+        "descricao": "Smartwatch Apple com GPS, sensor de temperatura, monitor cardíaco e resistente à água",
+        "preco": 3999,
+        "quantidade": 15,
+        "imagem_url": "https://m.media-amazon.com/images/I/71XMTLtZd5L._AC_SL1500_.jpg",
+        "categoria": "Smartwatches",
+        "data_cadastro": "2024-03-27"
+      },
+      {
+        "id": 6,
+        "nome": "Teclado Mecânico Logitech G Pro X",
+        "descricao": "Teclado mecânico para jogos com switches intercambiáveis e iluminação RGB",
+        "preco": 750,
+        "quantidade": 20,
+        "imagem_url": "https://m.media-amazon.com/images/I/81c+9BOQNWL._AC_SL1500_.jpg",
+        "categoria": "Periféricos",
+        "data_cadastro": "2024-03-27"
+      },
+      {
+        "id": 7,
+        "nome": "Fone Sony WH-1000XM4",
+        "descricao": "Headphone Bluetooth com cancelamento de ruído e até 30 horas de bateria",
+        "preco": 1699,
+        "quantidade": 12,
+        "imagem_url": "https://m.media-amazon.com/images/I/71o8Q5XJS5L._AC_SL1500_.jpg",
+        "categoria": "Áudio",
+        "data_cadastro": "2024-03-27"
+      },
+      {
+        "id": 8,
+        "nome": "iPad Pro M2",
+        "descricao": "Tablet Apple com chip M2, tela Liquid Retina XDR de 12.9 polegadas e 256GB",
+        "preco": 9499,
+        "quantidade": 6,
+        "imagem_url": "https://m.media-amazon.com/images/I/81c+9BOQNWL._AC_SL1500_.jpg",
+        "categoria": "Tablets",
+        "data_cadastro": "2024-03-27"
+      },
+      {
+        "id": 9,
+        "nome": "Monitor Gamer Alienware 34\"",
+        "descricao": "Monitor ultrawide curvo QD-OLED, 175Hz, 0.1ms, G-Sync Ultimate",
+        "preco": 8999,
+        "quantidade": 4,
+        "imagem_url": "https://m.media-amazon.com/images/I/81c+9BOQNWL._AC_SL1500_.jpg",
+        "categoria": "Monitores",
+        "data_cadastro": "2024-03-27"
+      },
+      {
+        "id": 10,
+        "nome": "RTX 4090 ROG STRIX",
+        "descricao": "Placa de vídeo NVIDIA GeForce RTX 4090 24GB GDDR6X",
+        "preco": 12999,
+        "quantidade": 2,
+        "imagem_url": "https://m.media-amazon.com/images/I/81-9Rsq1tYL._AC_SL1500_.jpg",
+        "categoria": "Placas de Vídeo",
+        "data_cadastro": "2024-03-27"
+      },
+      {
+        "id": 11,
+        "nome": "AirPods Pro 2",
+        "descricao": "Fone sem fio com cancelamento de ruído ativo e áudio espacial",
+        "preco": 1899,
+        "quantidade": 15,
+        "imagem_url": "https://m.media-amazon.com/images/I/61SUj2aKoEL._AC_SL1500_.jpg",
+        "categoria": "Áudio",
+        "data_cadastro": "2024-03-27"
+      },
+      {
+        "id": 12,
+        "nome": "Xbox Series X",
+        "descricao": "Console Microsoft com 1TB SSD, 4K, 120fps e Ray Tracing",
+        "preco": 4299,
+        "quantidade": 7,
+        "imagem_url": "https://m.media-amazon.com/images/I/61-jjE67uqL._AC_SL1500_.jpg",
+        "categoria": "Consoles",
+        "data_cadastro": "2024-03-27"
+      },
+      {
+        "id": 13,
+        "nome": "Galaxy S23 Ultra",
+        "descricao": "Smartphone Samsung com S Pen, 256GB e câmera de 200MP",
+        "preco": 6999,
+        "quantidade": 9,
+        "imagem_url": "https://m.media-amazon.com/images/I/71Sa3dqTqGL._AC_SL1500_.jpg",
+        "categoria": "Smartphones",
+        "data_cadastro": "2024-03-27"
+      },
+      {
+        "id": 14,
+        "nome": "Nintendo Switch Pro Controller",
+        "descricao": "Controle sem fio oficial para Nintendo Switch",
+        "preco": 499,
+        "quantidade": 25,
+        "imagem_url": "https://m.media-amazon.com/images/I/61drpi3cYUL._AC_SL1500_.jpg",
+        "categoria": "Acessórios",
+        "data_cadastro": "2024-03-27"
+      },
+      {
+        "id": 15,
+        "nome": "Dell XPS 13 Plus",
+        "descricao": "Notebook com Intel Core i7, 16GB RAM, 512GB SSD",
+        "preco": 11999,
+        "quantidade": 4,
+        "imagem_url": "https://m.media-amazon.com/images/I/71BGU6RuBGL._AC_SL1500_.jpg",
+        "categoria": "Notebooks",
+        "data_cadastro": "2024-03-27"
+      },
+      {
+        "id": 16,
+        "nome": "Samsung Galaxy Watch 5 Pro",
+        "descricao": "Smartwatch com GPS, monitor cardíaco e bateria de longa duração",
+        "preco": 2499,
+        "quantidade": 11,
+        "imagem_url": "https://m.media-amazon.com/images/I/61Sl+xoZl7L._AC_SL1500_.jpg",
+        "categoria": "Smartwatches",
+        "data_cadastro": "2024-03-27"
+      },
+      {
+        "id": 17,
+        "nome": "Mouse Logitech G Pro X Superlight",
+        "descricao": "Mouse gamer sem fio ultraleve com sensor HERO 25K",
+        "preco": 699,
+        "quantidade": 18,
+        "imagem_url": "https://m.media-amazon.com/images/I/61chN9UxFhL._AC_SL1500_.jpg",
+        "categoria": "Periféricos",
+        "data_cadastro": "2024-03-27"
+      },
+      {
+        "id": 18,
+        "nome": "Canon EOS R5",
+        "descricao": "Câmera mirrorless full-frame 45MP com gravação 8K",
+        "preco": 25999,
+        "quantidade": 3,
+        "imagem_url": "https://m.media-amazon.com/images/I/71hbA85OZEL._AC_SL1500_.jpg",
+        "categoria": "Câmeras",
+        "data_cadastro": "2024-03-27"
+      },
+      {
+        "id": 19,
+        "nome": "LG C2 OLED 65\"",
+        "descricao": "Smart TV OLED 4K, 120Hz, Dolby Vision IQ e webOS",
+        "preco": 8499,
+        "quantidade": 5,
+        "imagem_url": "https://m.media-amazon.com/images/I/81JzRwP+2BL._AC_SL1500_.jpg",
+        "categoria": "TVs",
+        "data_cadastro": "2024-03-27"
+      },
+      {
+        "id": 20,
+        "nome": "DJI Mini 3 Pro",
+        "descricao": "Drone compacto com câmera 4K, sensores de obstáculos e autonomia de 34min",
+        "preco": 4999,
+        "quantidade": 6,
+        "imagem_url": "https://m.media-amazon.com/images/I/61Y1P6uIRFL._AC_SL1500_.jpg",
+        "categoria": "Drones",
+        "data_cadastro": "2024-03-27"
+      },
+      {
+        "id": 21,
+        "nome": "Headset SteelSeries Arctis 7",
+        "descricao": "Headset gamer sem fio com som surround e microfone retrátil",
+        "preco": 899,
+        "quantidade": 14,
+        "imagem_url": "https://m.media-amazon.com/images/I/71BtxRqQxVL._AC_SL1500_.jpg",
+        "categoria": "Áudio",
+        "data_cadastro": "2024-03-27"
+      },
+      {
+        "id": 22,
+        "nome": "Kindle Oasis",
+        "descricao": "E-reader com tela de 7\", luz ajustável e resistência à água",
+        "preco": 1299,
+        "quantidade": 10,
+        "imagem_url": "https://m.media-amazon.com/images/I/61QyxIiOxML._AC_SL1000_.jpg",
+        "categoria": "E-readers",
+        "data_cadastro": "2024-03-27"
+      },
+      {
+        "id": 23,
+        "nome": "AMD Ryzen 9 7950X",
+        "descricao": "Processador 16 cores, 32 threads, até 5.7GHz",
+        "preco": 4299,
+        "quantidade": 7,
+        "imagem_url": "https://m.media-amazon.com/images/I/61yNtF8yVtL._AC_SL1500_.jpg",
+        "categoria": "Processadores",
+        "data_cadastro": "2024-03-27"
+      },
+      {
+        "id": 24,
+        "nome": "ROG Zephyrus G14",
+        "descricao": "Notebook gamer AMD Ryzen 9, RTX 4090, 32GB RAM",
+        "preco": 15999,
+        "quantidade": 3,
+        "imagem_url": "https://m.media-amazon.com/images/I/81Ig5uZe9IL._AC_SL1500_.jpg",
+        "categoria": "Notebooks",
+        "data_cadastro": "2024-03-27"
+      },
+      {
+        "id": 25,
+        "nome": "Google Pixel 7 Pro",
+        "descricao": "Smartphone Android com câmera avançada e Google Tensor G2",
+        "preco": 5999,
+        "quantidade": 8,
+        "imagem_url": "https://m.media-amazon.com/images/I/71aCEA6VxgL._AC_SL1500_.jpg",
+        "categoria": "Smartphones",
+        "data_cadastro": "2024-03-27"
+      },
+      {
+        "id": 26,
+        "nome": "Meta Quest 3",
+        "descricao": "Óculos de realidade virtual com controles Touch Plus",
+        "preco": 3999,
+        "quantidade": 6,
+        "imagem_url": "https://m.media-amazon.com/images/I/61ke+jCBRFL._AC_SL1500_.jpg",
+        "categoria": "VR",
+        "data_cadastro": "2024-03-27"
+      },
+      {
+        "id": 27,
+        "nome": "Samsung Odyssey G9",
+        "descricao": "Monitor gaming 49\" curvo, 240Hz, 5120x1440",
+        "preco": 9999,
+        "quantidade": 4,
+        "imagem_url": "https://m.media-amazon.com/images/I/81v6JWL5MhL._AC_SL1500_.jpg",
+        "categoria": "Monitores",
+        "data_cadastro": "2024-03-27"
+      },
+      {
+        "id": 28,
+        "nome": "Sony A7R V",
+        "descricao": "Câmera mirrorless full-frame 61MP com IA",
+        "preco": 29999,
+        "quantidade": 2,
+        "imagem_url": "https://m.media-amazon.com/images/I/81HwzslJ3LL._AC_SL1500_.jpg",
+        "categoria": "Câmeras",
+        "data_cadastro": "2024-03-27"
+      },
+      {
+        "id": 29,
+        "nome": "Steam Deck",
+        "descricao": "Console portátil para jogos PC com SSD 512GB",
+        "preco": 4499,
+        "quantidade": 5,
+        "imagem_url": "https://m.media-amazon.com/images/I/61TzjRn8DrL._AC_SL1500_.jpg",
+        "categoria": "Consoles",
+        "data_cadastro": "2024-03-27"
+      },
+      {
+        "id": 30,
+        "nome": "Apple Studio Display",
+        "descricao": "Monitor 5K Retina 27\" com webcam e alto-falantes",
+        "preco": 19999,
+        "quantidade": 3,
+        "imagem_url": "https://m.media-amazon.com/images/I/81M-wh5WjGL._AC_SL1500_.jpg",
+        "categoria": "Monitores",
+        "data_cadastro": "2024-03-27"
+      },
+      {
+        "id": 31,
+        "nome": "Monitor Dell Alienware 34 Curved",
+        "descricao": "Monitor gamer curvo de 34 polegadas com resolução WQHD, taxa de atualização de 120Hz e tecnologia G-Sync.",
+        "preco": 6000,
+        "quantidade": 5,
+        "imagem_url": "https://www.dell.com/sites/csimages/Video_Imagery/all/alienware-34-curved-gaming-monitor-aw3418dw.jpg",
+        "categoria": "Periféricos",
+        "data_cadastro": "2025-01-27"
+      },
+      {
+        "id": 32,
+        "nome": "Smartphone Samsung Galaxy S21 Ultra",
+        "descricao": "Smartphone com tela de 6.8 polegadas, 12GB de RAM, 256GB de armazenamento e câmera quádrupla de 108MP.",
+        "preco": 7500,
+        "quantidade": 10,
+        "imagem_url": "https://images.samsung.com/is/image/samsung/p6pim/br/galaxy-s21-ultra-5g-g988-sm-g998bzkgzto-frontphantomblack-368237977?$720_576_PNG$",
+        "categoria": "Smartphones",
+        "data_cadastro": "2025-01-27"
+      },
+      {
+        "id": 33,
+        "nome": "Tablet Apple iPad Pro 12.9",
+        "descricao": "Tablet com tela Liquid Retina de 12.9 polegadas, chip M1, 128GB de armazenamento e suporte ao Apple Pencil.",
+        "preco": 10000,
+        "quantidade": 7,
+        "imagem_url": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/ipad-pro-12-11-select-202104_GEO_BR?wid=940&hei=1112&fmt=png-alpha&.v=1617067383000",
+        "categoria": "Tablets",
+        "data_cadastro": "2025-01-27"
+      },
+      {
+        "id": 34,
+        "nome": "Smartwatch Apple Watch Series 7",
+        "descricao": "Relógio inteligente com tela Retina sempre ativa, monitoramento de oxigênio no sangue e ECG.",
+        "preco": 3500,
+        "quantidade": 15,
+        "imagem_url": "https://store.storeimages.cdn-apple.com/4668/as-images.apple.com/is/MKMX3_VW_34FR+watch-45-alum-midnight-cell-7s_VW_34FR_WF_CO_GEO_BR?wid=940&hei=1112&fmt=png-alpha&.v=1632171067000",
+        "categoria": "Wearables",
+        "data_cadastro": "2025-01-27"
+      },
+      {
+        "id": 35,
+        "nome": "Fone de Ouvido Sony WH-1000XM4",
+        "descricao": "Fone de ouvido sem fio com cancelamento de ruído ativo, até 30 horas de bateria e suporte a assistente de voz.",
+        "preco": 1500,
+        "quantidade": 20,
+        "imagem_url": "https://www.sony.com/image/sony-wh-1000xm4.jpg",
+        "categoria": "Áudio",
+        "data_cadastro": "2025-01-27"
+      },
+      {
+        "id": 36,
+        "nome": "Câmera GoPro HERO10 Black",
+        "descricao": "Câmera de ação com gravação em 5.3K, estabilização HyperSmooth 4.0 e resistente à água até 10m.",
+        "preco": 2800,
+        "quantidade": 12,
+        "imagem_url": "https://gopro.com/content/dam/gopro/en/en/pdp/hero10-black/packaging/hero10-black-front.jpg",
+        "categoria": "Câmeras",
+        "data_cadastro": "2025-01-27"
+      },
+      {
+        "id": 37,
+        "nome": "Console Nintendo Switch OLED",
+        "descricao": "Console híbrido com tela OLED de 7 polegadas, 64GB de armazenamento interno e dock com porta LAN.",
+        "preco": 3000,
+        "quantidade": 8,
+        "imagem_url": "https://www.nintendo.com/content/dam/noa/en_US/hardware/switch/nintendo-switch-oled-model-white-set.jpg",
+        "categoria": "Consoles",
+        "data_cadastro": "2025-01-27"
+      },
+      {
+        "id": 38,
+        "nome": "Drone DJI Mavic Air 2",
+        "descricao": "Drone com câmera 4K, tempo de voo de até 34 minutos e alcance de transmissão de 10 km.",
+        "preco": 6000,
+        "quantidade": 5,
+        "imagem_url": "https://www.dji.com/mavic-air-2",
+        "categoria": "Drones",
+        "data_cadastro": "2025-01-27"
+      }
+    ]
+  }
+}

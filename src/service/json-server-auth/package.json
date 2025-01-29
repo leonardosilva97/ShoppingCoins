@@ -1,0 +1,18 @@
+{
+  "name": "json-server-auth",
+  "version": "1.0.0",
+  "description": "Servidor JSON para simular autenticação de usuário.",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "json-server --watch src/db.json --port 3000",
+    "dev": "nodemon src/server.js"
+  },
+  "dependencies": {
+    "json-server": "^0.17.0"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^3.1.9"
+  }
+}
